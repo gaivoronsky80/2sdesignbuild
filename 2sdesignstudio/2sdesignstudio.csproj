@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <RootNamespace>_2sdesignstudio</RootNamespace>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.NETCore.App" Version="$(RuntimeFrameworkVersion)">
+      <AllowExplicitVersion>true</AllowExplicitVersion>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\Index.cshtml.cs" />
+    <Content Remove="wwwroot\css\Index.cshtml" />
+    <Content Remove="wwwroot\images\11.jpg" />
+    <Content Remove="wwwroot\images\15.jpg" />
+    <Content Remove="wwwroot\js\imagelightbox.js" />
+    <Content Remove="wwwroot\css\lightgallery.min.css" />
+  </ItemGroup>
+</Project>
