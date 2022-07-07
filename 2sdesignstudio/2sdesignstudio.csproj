@@ -12,7 +12,7 @@
     <PackageReference Include="Microsoft.NETCore.App" Version="$(RuntimeFrameworkVersion)">
       <AllowExplicitVersion>true</AllowExplicitVersion>
     </PackageReference>
-    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.6" />
   </ItemGroup>
 
   <ItemGroup>
